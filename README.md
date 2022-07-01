@@ -1,1 +1,1 @@
-# simple-blog
+# simple-mern-blog-app
