@@ -1,0 +1,42 @@
+.root {
+    width: 100%;
+    min-height: 40px;
+    position: relative;
+    bottom: 0;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    background-color: #fff;
+
+}
+
+.inner {
+    justify-content: space-between;
+}
+
+.list-style {
+    line-height: 1.5em;
+}
+
+ul {
+    margin: 5px 0 15px;
+    padding: 0 25px;
+}
+  
+li {
+    position: relative;
+    padding: 0;
+}
+
+hr {
+    border: 1px solid #e0e0e0;
+}
+
+.copyright {
+    float: right;
+    text-align: right;
+
+    a {
+        text-decoration: none;
+    }
+}
