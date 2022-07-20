@@ -1,7 +1,5 @@
 import React from "react";
 
-import { env } from '../config';
-
 import { useParams } from 'react-router-dom';
 import ReactMarkdown from "react-markdown";
 
@@ -39,7 +37,7 @@ export const FullPost = () => {
       <Post
         id={data._id}
         title={data.title}
-        imageUrl={data.imageUrl ? `${env.API_URL}${data.imageUrl}` : ''}
+        imageUrl={data.imageUrl ? data.imageUrl : ''}
         user={data.user}
         createdAt={data.createdAt}
         viewsCount={data.viewsCount}

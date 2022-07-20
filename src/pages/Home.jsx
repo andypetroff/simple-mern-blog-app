@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { env } from '../config';
-
 import { useDispatch, useSelector } from 'react-redux';
 
 import Grid from '@mui/material/Grid';
@@ -34,7 +32,7 @@ export const Home = () => {
             <Post
               id={obj._id}
               title={obj.title}
-              imageUrl={obj.imageUrl ? `${env.API_URL}${obj.imageUrl}` : ''}
+              imageUrl={obj.imageUrl ? obj.imageUrl : ''}
               user={obj.user}
               createdAt={obj.createdAt}
               viewsCount={obj.viewsCount}

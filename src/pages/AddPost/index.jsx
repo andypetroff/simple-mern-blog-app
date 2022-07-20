@@ -1,7 +1,5 @@
 import React from "react";
 
-import { env } from '../../config';
-
 import { useSelector } from "react-redux";
 
 import { useNavigate, Navigate, useParams } from "react-router-dom";
@@ -147,7 +145,7 @@ export const AddPost = () => {
           </Button>
           <img
             className={styles.image}
-            src={`${env.API_URL}${imageUrl}`}
+            src={imageUrl}
             alt="Uploaded"
           />
         </>

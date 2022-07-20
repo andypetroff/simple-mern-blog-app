@@ -64,6 +64,9 @@ export const Footer = () => {
             <h4>Cloud service providers</h4>
             <ul className="list-style">
               <li>
+                <a href="https://github.com/">Github</a>
+              </li>
+              <li>
                 <a href="https://heroku.com/">Heroku</a>
               </li>
               <li>
@@ -73,7 +76,7 @@ export const Footer = () => {
                 <a href="https://cloudinary.com/">Cloudinary</a>
               </li>
               <li>
-                <a href="https://github.com/">Github</a>
+                <a href="https://lucidchart.com/">LucidChart</a>
               </li>
             </ul>
           </Grid>
@@ -83,7 +86,7 @@ export const Footer = () => {
 
         <div className={styles.inner}>
           <div className={styles.copyright}>
-              {env.BLOG_NAME} &reg; {new Date().getFullYear()}
+              {env.APP_NAME} &reg; {new Date().getFullYear()}
           </div>
         </div>
       </Container>
