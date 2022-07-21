@@ -1,7 +1,7 @@
 {
   "name": "simple-mern-blog-app",
   "version": "1.0.0",
-  "description": "Simple Blog's Application with MERN stack (MangoDB, Express, React/Redux, Node)",
+  "description": "Simple Blog's Application with MERN stack (MongoDB, Express, React/Redux, Node)",
   "repository": {
     "type": "git",
     "url": ""

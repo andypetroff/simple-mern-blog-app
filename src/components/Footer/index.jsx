@@ -22,7 +22,7 @@ export const Footer = () => {
             <h4>What's MERN Stack?</h4>
             <ul className="list-style">
               <li>
-                <a href="https://www.mongodb.com/">Mango DB</a>
+                <a href="https://www.mongodb.com/">Mongo DB</a>
               </li>
               <li>
                 <a href="https://expressjs.com/">Express</a>
