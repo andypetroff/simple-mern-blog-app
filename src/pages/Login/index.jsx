@@ -61,10 +61,11 @@ export const Login = () => {
         />
         <TextField 
           className={styles.field} 
-          label="Password" 
+          type="password"
           error={Boolean(errors.password?.message)}
           helperText={errors.password?.message}
           {...register('password', { required: 'Enter your password' })}
+          label="Password" 
           fullWidth />
         <Button disabled={!isValid} type="submit" size="large" variant="contained" fullWidth>
           Sign in
