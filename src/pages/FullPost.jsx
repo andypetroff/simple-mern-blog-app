@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import ReactMarkdown from "react-markdown";
 
 import { Post } from "../components/Post";
+import { BackToTop } from '../components/BackToTop';
 
 import axios from "../axios";
 
@@ -47,6 +48,7 @@ export const FullPost = () => {
       >
         <ReactMarkdown children={data.text} />
       </Post>
+      <BackToTop />
     </>
   );
 };

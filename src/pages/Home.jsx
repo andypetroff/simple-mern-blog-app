@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 
 import { Post } from '../components/Post';
 import { fetchPosts, fetchTags } from '../redux/slices/posts';
+import { BackToTop } from '../components/BackToTop';
 
 export const Home = () => {
   const dispatch = useDispatch();
@@ -44,6 +45,7 @@ export const Home = () => {
           ))}
         </Grid>
       </Grid>
+      <BackToTop />
     </>
   );
 };
